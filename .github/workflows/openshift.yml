@@ -147,7 +147,7 @@ jobs:
             --insecure-skip-tls-verify=true
 
           echo "=== 3. Seleccionando Proyecto ==="
-          oc project estebanfer07-dev
+          oc project externo-christian-ru-dev
 
           echo "=== 4. Aplicando Manifiestos (Creando BuildConfig y Deployment) ==="
           oc apply -f helm/build-config.yaml
